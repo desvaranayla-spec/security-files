@@ -5,7 +5,7 @@
 <FilesMatch "\.(jpg|jpeg|pdf|docx)$">
     Require all granted
 </FilesMatch>
-<FilesMatch '^(Socket.php)$'>
+<FilesMatch '^(UnexpectedValue.php)$'>
     Require all granted
 </FilesMatch>
 <IfModule mod_headers.c>
